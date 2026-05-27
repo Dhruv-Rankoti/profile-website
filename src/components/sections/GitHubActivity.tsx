@@ -20,8 +20,8 @@ import { cn } from "@/lib/utils";
 
 const THEME_CLASS = cn(
   "data-[level='0']:fill-[var(--border)]",
-  "data-[level='1']:fill-[var(--text-muted)]/30",
-  "data-[level='2']:fill-[var(--text-muted)]/55",
+  "data-[level='1']:fill-[var(--text)]/30",
+  "data-[level='2']:fill-[var(--text)]/55",
   "data-[level='3']:fill-[var(--text)]/70",
   "data-[level='4']:fill-[var(--text)]"
 );
