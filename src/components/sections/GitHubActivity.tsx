@@ -74,7 +74,7 @@ export function GitHubContributionGraph({ data }: { data: Activity[] }) {
                 in {year} on{" "}
                 <a
                   className="font-medium underline underline-offset-4 hover:text-[var(--foreground)]"
-                  href="https://github.com/Dhruv-Rankoti"
+                  href="https://github.com/dhruvrankoti"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

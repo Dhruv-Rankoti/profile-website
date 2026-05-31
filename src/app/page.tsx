@@ -15,7 +15,7 @@ export default async function Home() {
   let prs: Awaited<ReturnType<typeof getGitHubData>>["recentPrs"] = [];
 
   try {
-    const data = await getGitHubData("Dhruv-Rankoti");
+    const data = await getGitHubData("dhruvrankoti");
     prs = data.recentPrs;
     if (data.contributions?.weeks) {
       data.contributions.weeks.forEach((week) => {

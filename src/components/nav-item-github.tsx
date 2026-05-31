@@ -2,7 +2,7 @@ import { unstable_cache } from "next/cache";
 import { GitHubStars } from "@/components/github-stars";
 
 // Navbar-specific GitHub repo (different from SOURCE_CODE_GITHUB_REPO)
-const NAVBAR_GITHUB_REPO = "Dhruv-Rankoti/profile-website";
+const NAVBAR_GITHUB_REPO = "dhruvrankoti/profile-website";
 
 const getStargazerCount = unstable_cache(
   async () => {
